@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.1 (Python 3.11.0 on win32)" generated="20221207 14:47:27.136" rpa="false" schemaversion="3">
+<suite id="s1" name="Amazon-Concise" source="C:\Users\alvaleri\more readable - gherkin\tests\amazon-concise.robot">
+<test id="s1-t1" name="Logged out user can search for products" line="13">
+<kw name="Begin Web Test" library="Common" type="SETUP">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>about:blank</arg>
+<arg>ie</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20221207 14:47:27.391" level="INFO">Opening browser 'ie' to base url 'about:blank'.</msg>
+<msg timestamp="20221207 14:47:27.443" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<msg timestamp="20221207 14:47:27.443" level="FAIL">WebDriverException: Message: 'IEDriverServer.exe' executable needs to be in PATH. Please download from https://www.selenium.dev/downloads/ and read up at https://github.com/SeleniumHQ/selenium/wiki/InternetExplorerDriver
+</msg>
+<status status="FAIL" starttime="20221207 14:47:27.391" endtime="20221207 14:47:27.447"/>
+</kw>
+<status status="FAIL" starttime="20221207 14:47:27.390" endtime="20221207 14:47:27.447"/>
+</kw>
+<kw name="End Web Test" library="Common" type="TEARDOWN">
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20221207 14:47:27.448" endtime="20221207 14:47:27.448"/>
+</kw>
+<status status="PASS" starttime="20221207 14:47:27.447" endtime="20221207 14:47:27.448"/>
+</kw>
+<tag>Smoke</tag>
+<status status="FAIL" starttime="20221207 14:47:27.389" endtime="20221207 14:47:27.448">Setup failed:
+WebDriverException: Message: 'IEDriverServer.exe' executable needs to be in PATH. Please download from https://www.selenium.dev/downloads/ and read up at https://github.com/SeleniumHQ/selenium/wiki/InternetExplorerDriver
+</status>
+</test>
+<test id="s1-t2" name="Logged out user can view a product" line="20">
+<kw name="Begin Web Test" library="Common" type="SETUP">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>about:blank</arg>
+<arg>ie</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20221207 14:47:27.450" level="INFO">Opening browser 'ie' to base url 'about:blank'.</msg>
+<msg timestamp="20221207 14:47:27.452" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<msg timestamp="20221207 14:47:27.452" level="FAIL">WebDriverException: Message: 'IEDriverServer.exe' executable needs to be in PATH. Please download from https://www.selenium.dev/downloads/ and read up at https://github.com/SeleniumHQ/selenium/wiki/InternetExplorerDriver
+</msg>
+<status status="FAIL" starttime="20221207 14:47:27.450" endtime="20221207 14:47:27.453"/>
+</kw>
+<status status="FAIL" starttime="20221207 14:47:27.450" endtime="20221207 14:47:27.453"/>
+</kw>
+<kw name="End Web Test" library="Common" type="TEARDOWN">
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20221207 14:47:27.454" endtime="20221207 14:47:27.454"/>
+</kw>
+<status status="PASS" starttime="20221207 14:47:27.454" endtime="20221207 14:47:27.455"/>
+</kw>
+<tag>Smoke</tag>
+<status status="FAIL" starttime="20221207 14:47:27.449" endtime="20221207 14:47:27.455">Setup failed:
+WebDriverException: Message: 'IEDriverServer.exe' executable needs to be in PATH. Please download from https://www.selenium.dev/downloads/ and read up at https://github.com/SeleniumHQ/selenium/wiki/InternetExplorerDriver
+</status>
+</test>
+<test id="s1-t3" name="Logged out user can add product to cart" line="27">
+<kw name="Begin Web Test" library="Common" type="SETUP">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>about:blank</arg>
+<arg>ie</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20221207 14:47:27.457" level="INFO">Opening browser 'ie' to base url 'about:blank'.</msg>
+<msg timestamp="20221207 14:47:27.460" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<msg timestamp="20221207 14:47:27.460" level="FAIL">WebDriverException: Message: 'IEDriverServer.exe' executable needs to be in PATH. Please download from https://www.selenium.dev/downloads/ and read up at https://github.com/SeleniumHQ/selenium/wiki/InternetExplorerDriver
+</msg>
+<status status="FAIL" starttime="20221207 14:47:27.457" endtime="20221207 14:47:27.461"/>
+</kw>
+<status status="FAIL" starttime="20221207 14:47:27.457" endtime="20221207 14:47:27.461"/>
+</kw>
+<kw name="End Web Test" library="Common" type="TEARDOWN">
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20221207 14:47:27.462" endtime="20221207 14:47:27.462"/>
+</kw>
+<status status="PASS" starttime="20221207 14:47:27.462" endtime="20221207 14:47:27.462"/>
+</kw>
+<tag>Smoke</tag>
+<status status="FAIL" starttime="20221207 14:47:27.456" endtime="20221207 14:47:27.462">Setup failed:
+WebDriverException: Message: 'IEDriverServer.exe' executable needs to be in PATH. Please download from https://www.selenium.dev/downloads/ and read up at https://github.com/SeleniumHQ/selenium/wiki/InternetExplorerDriver
+</status>
+</test>
+<test id="s1-t4" name="Logged out user must sign in to check out" line="35">
+<kw name="Begin Web Test" library="Common" type="SETUP">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>about:blank</arg>
+<arg>ie</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20221207 14:47:27.465" level="INFO">Opening browser 'ie' to base url 'about:blank'.</msg>
+<msg timestamp="20221207 14:47:27.466" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<msg timestamp="20221207 14:47:27.467" level="FAIL">WebDriverException: Message: 'IEDriverServer.exe' executable needs to be in PATH. Please download from https://www.selenium.dev/downloads/ and read up at https://github.com/SeleniumHQ/selenium/wiki/InternetExplorerDriver
+</msg>
+<status status="FAIL" starttime="20221207 14:47:27.464" endtime="20221207 14:47:27.468"/>
+</kw>
+<status status="FAIL" starttime="20221207 14:47:27.464" endtime="20221207 14:47:27.468"/>
+</kw>
+<kw name="End Web Test" library="Common" type="TEARDOWN">
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20221207 14:47:27.468" endtime="20221207 14:47:27.468"/>
+</kw>
+<status status="PASS" starttime="20221207 14:47:27.468" endtime="20221207 14:47:27.469"/>
+</kw>
+<tag>Smoke</tag>
+<status status="FAIL" starttime="20221207 14:47:27.464" endtime="20221207 14:47:27.469">Setup failed:
+WebDriverException: Message: 'IEDriverServer.exe' executable needs to be in PATH. Please download from https://www.selenium.dev/downloads/ and read up at https://github.com/SeleniumHQ/selenium/wiki/InternetExplorerDriver
+</status>
+</test>
+<doc>These test cases use a 2nd level keyword to wrap up multiple 1st level keywords for brevity</doc>
+<status status="FAIL" starttime="20221207 14:47:27.137" endtime="20221207 14:47:27.470"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="4" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="4" skip="0">Smoke</stat>
+</tag>
+<suite>
+<stat pass="0" fail="4" skip="0" id="s1" name="Amazon-Concise">Amazon-Concise</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20221207 14:47:27.380" level="ERROR">Error in file 'C:\Users\alvaleri\more readable - gherkin\Resources\AmazonApp.robot' on line 2: Resource file 'Resources\PO\LandingPage.robot' does not exist.</msg>
+<msg timestamp="20221207 14:47:27.381" level="ERROR">Error in file 'C:\Users\alvaleri\more readable - gherkin\Resources\AmazonApp.robot' on line 3: Resource file 'Resources\PO\TopNav.robot' does not exist.</msg>
+<msg timestamp="20221207 14:47:27.383" level="ERROR">Error in file 'C:\Users\alvaleri\more readable - gherkin\Resources\AmazonApp.robot' on line 4: Resource file 'Resources\PO\SearchResults.robot' does not exist.</msg>
+<msg timestamp="20221207 14:47:27.385" level="ERROR">Error in file 'C:\Users\alvaleri\more readable - gherkin\Resources\AmazonApp.robot' on line 5: Resource file 'Resources\PO\Product.robot' does not exist.</msg>
+<msg timestamp="20221207 14:47:27.386" level="ERROR">Error in file 'C:\Users\alvaleri\more readable - gherkin\Resources\AmazonApp.robot' on line 6: Resource file 'Resources\PO\Cart.robot' does not exist.</msg>
+<msg timestamp="20221207 14:47:27.387" level="ERROR">Error in file 'C:\Users\alvaleri\more readable - gherkin\Resources\AmazonApp.robot' on line 7: Resource file 'Resources\PO\SignIn.robot' does not exist.</msg>
+</errors>
+</robot>
